@@ -1,6 +1,6 @@
 # npmtest-apns
 
-#### test coverage for  [apns (v0.1.0)](https://github.com/neoziro/node-apns#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-apns.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-apns) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-apns.svg)](https://travis-ci.org/npmtest/node-npmtest-apns)
+#### basic test coverage for  [apns (v0.1.0)](https://github.com/neoziro/node-apns#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-apns.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-apns) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-apns.svg)](https://travis-ci.org/npmtest/node-npmtest-apns)
 
 #### APNS (Apple Push Notification Service) interface written in node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-apns/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-apns/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-apns/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-apns/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-apns/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-apns/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-apns/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-apns/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-apns/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-apns/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-apns/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-apns/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
         "type": "git",
         "url": "git://github.com/neoziro/node-apns.git"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
